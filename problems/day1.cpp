@@ -1,6 +1,6 @@
 #include "problems.h"
 
-void problems::day1::historianHysteria() {
+void problems::day1() {
     std::ifstream file("../inputs/problem1.txt");
     if(!file.is_open()) {
         std::cerr << "File not found." << std::endl;

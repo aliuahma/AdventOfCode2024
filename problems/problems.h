@@ -9,8 +9,10 @@
 #include <unordered_map>
 #include <vector>
 
-namespace problems::day1 {
-    void historianHysteria();
-} // namespace problems::day1
+namespace problems {
+
+void day1();
+
+} // namespace problems
 
 #endif // PROBLEMS_H
