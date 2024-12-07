@@ -6,6 +6,7 @@
 #include <fstream>
 #include <sstream>
 #include <string>
+#include <regex>
 #include <unordered_map>
 #include <vector>
 
@@ -13,6 +14,7 @@ namespace problems {
 
 void day1();
 void day2();
+void day3();
 
 } // namespace problems
 
