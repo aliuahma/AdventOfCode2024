@@ -8,6 +8,10 @@ int main() {
     problemMap["1"] = problems::day1;
     problemMap["2"] = problems::day2;
     problemMap["3"] = problems::day3;
+    problemMap["4"] = problems::day4;
+    problemMap["5"] = problems::day5;
+    problemMap["6"] = problems::day6;
+    problemMap["7"] = problems::day7;
 
     std::cout << "Enter a day number (1-30) or press ESC, 'exit', or '0' to quit..." << std::endl;
     std::string input;
