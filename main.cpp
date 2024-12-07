@@ -6,6 +6,7 @@
 int main() {
     std::unordered_map<std::string, std::function<void()>> problemMap;
     problemMap["1"] = problems::day1;
+    problemMap["2"] = problems::day2;
 
     std::cout << "Enter a day number (1-30) or press ESC, 'exit', or '0' to quit..." << std::endl;
     std::string input;

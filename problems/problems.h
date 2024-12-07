@@ -12,6 +12,7 @@
 namespace problems {
 
 void day1();
+void day2();
 
 } // namespace problems
 
